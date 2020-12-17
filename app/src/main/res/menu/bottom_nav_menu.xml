@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="ExtraText">
+
+    //Home Button
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home"
+        app:showAsAction="ifRoom" />
+
+    //Blank Button to force bottom navigation to fill bottom of the screen
+    <item
+        android:id="@+id/action_blank"
+        android:enabled="false"
+        android:title=""
+        app:showAsAction="ifRoom" />
+
+    //Staff Button
+    <item
+        android:id="@+id/action_settings"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settings"
+        app:showAsAction="ifRoom" />
+
+
+</menu>
